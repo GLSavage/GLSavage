@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why Does It Feel Like There Is Never Enough Time?"
+author: G. L. Savage
 ---
 
 The constant lack of time is not accidental.
