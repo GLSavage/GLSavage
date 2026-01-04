@@ -69,7 +69,7 @@ The workbook does not offer motivation, balance, or optimization. It shows where
 👉 **[View Reclaim Your Time on Payhip](<div class="payhip-embed-page" data-key="VbCpf">...</div><sc)**
 
 The goal is not to do more.  
-The goal is to see what has been done *to time* — and what was never explained.
+The goal is to see what has been done *to time*, and what was never explained.
 
-👉 **[Get the Reclaim Your Time workbook](PAYHIP_URL_HERE)**
+👉 **[Get the Reclaim Your Time workbook](https://payhip.com/b/VbCpf)**
 
