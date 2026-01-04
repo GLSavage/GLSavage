@@ -66,7 +66,7 @@ It feels like “just how life is now.”
 
 The workbook does not offer motivation, balance, or optimization. It shows where time is being claimed by default and where that claim can be interrupted deliberately.
 
-👉 **[View Reclaim Your Time on Payhip](<div class="payhip-embed-page" data-key="VbCpf">...</div><sc)**
+
 
 The goal is not to do more.  
 The goal is to see what has been done *to time*, and what was never explained.
