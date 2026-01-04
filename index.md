@@ -3,8 +3,8 @@ layout: default
 title: ""
 ---
 <img src="/savagelogo.png" alt=""
-style="width:120px;
-margin-bottom: 16px;">
+style="width:120 px;
+margin-bottom: 16 px;">
 
 
 <p>Something you saw brought you here.</p>
