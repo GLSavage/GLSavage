@@ -2,9 +2,9 @@
 layout: default
 title: ""
 ---
-<img src="/savagelogo.png" alt=""
-style="width:120 px;
-margin-bottom: 16 px;">
+<img src={{ site.baseurl }}/savagelogo.png
+alt="" style="width:120px;
+margin-bottom: 16px;">
 
 
 <p>Something you saw brought you here.</p>
