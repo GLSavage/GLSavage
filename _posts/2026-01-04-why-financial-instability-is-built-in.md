@@ -82,4 +82,5 @@ The goal is not to earn more.
 The goal is to see how financial instability is maintained, and what was never explained.
 
 👉 [Get the Reclaim Your Finances Workbook]((https://payhip.com/b/ZvbGe)
+
 Part of the [Reclaim Your Life Series](https://payhip.com/b/KYqbR)
