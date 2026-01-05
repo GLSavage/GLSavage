@@ -75,3 +75,6 @@ The goal is to see what has been done *to time*, and what was never explained.
 
 Part of the [Reclaim Your Life Series](https://payhip.com/b/KYqbR)
 
+
+[Home]({{ "/index.html" | relative_url }})
+
