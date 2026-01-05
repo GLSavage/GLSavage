@@ -5,9 +5,17 @@ title: ""
 
 <img src="{{ site.baseurl }}/SavageLogo.png" alt="" style="width:80px; margin-bottom:16px;">
 
-<h1>Something you saw brought you here.</h1>
+<h2 style="font-size:1.6rem; font-weight:500; margin-top:0;">
+  Something you saw brought you here.
+</h2>
 
-<h2><a href="PAYHIP_URL_HERE">View the work</a></h2>
+<p style="margin-top:16px;">
+  <a href="https://payhip.com/GLSavage"
+     style="font-size:1.1rem; font-weight:600;">
+     View the work
+  </a>
+</p>
+
 
 <hr>
 
