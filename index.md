@@ -3,9 +3,9 @@ layout: default
 title: ""
 ---
 
-<img src="{{ site.baseurl }}/SavageLogo.png" alt="" style="width:120px; margin-bottom:16px;">
+<img src="{{ site.baseurl }}/SavageLogo.png" alt="" style="width:80px; margin-bottom:16px;">
 
-<p>Something you saw brought you here.</p>
+<h1>Something you saw brought you here.</h1>
 
 <p><a href="PAYHIP_URL_HERE">View the work</a></p>
 
