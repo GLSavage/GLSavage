@@ -7,7 +7,7 @@ title: ""
 
 <h1>Something you saw brought you here.</h1>
 
-<p><a href="PAYHIP_URL_HERE">View the work</a></p>
+<h2><a href="PAYHIP_URL_HERE">View the work</a></h2>
 
 <hr>
 
