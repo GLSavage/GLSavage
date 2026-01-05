@@ -6,7 +6,7 @@ title: ""
 <img src="{{ site.baseurl }}/SavageLogo.png" alt="" style="width:80px; margin-bottom:16px;">
 
 <h2 style="font-size:1.6rem; font-weight:500; margin-top:0;">
-  Something you saw brought you here.
+  Something you saw brought you here. <br>
   This is the work behind it.
 </h2>
 
