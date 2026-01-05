@@ -90,3 +90,6 @@ This is the explanation that is usually missing.
 
 Part of the [Reclaim Your Life Series](https://payhip.com/b/KYqbR)
 
+
+[Home]({{ "/index.html" | relative_url }})
+
