@@ -86,7 +86,7 @@ The workbook lays out what has been taking energy by default, why this has not b
 
 This is the explanation that is usually missing.
 
-👉 [Get the Reclaim Your Energy Workbook](https://payhip.com/GLSavage)  
+👉 [Get the Reclaim Your Energy Workbook](https://payhip.com/b/dJxus)
 
 Part of the [Reclaim Your Life Series](https://payhip.com/b/KYqbR)
 
