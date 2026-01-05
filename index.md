@@ -10,10 +10,10 @@ title: ""
   This is the work behind it.
 </h2>
 
-<p style="margin-top:16px;">
+<p style="margin-top:24px;">
   <a href="https://payhip.com/GLSavage"
      style="font-size:1.2rem; font-weight:600;">
-    <hr>
+    
      View the work
   </a>
 </p>
