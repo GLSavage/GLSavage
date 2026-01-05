@@ -8,3 +8,5 @@ title: Articles
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url | relative_url }})
 {% endfor %}
+
+[Home]({{ "/index.html" | relative_url }})
