@@ -1,0 +1,11 @@
+h1, h2, h3 {
+  border-bottom: none;
+}
+
+a {
+  border-bottom: none;
+}
+
+hr {
+  margin: 2rem 0;
+}
