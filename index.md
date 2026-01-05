@@ -34,7 +34,8 @@ title: ""
 {% else %}
 <p>No articles yet.</p>
 {% endif %}
-[More articles]({{ "/articles/" | relative_url }})
+[More articles]({{ "/articles.html" | relative_url }})
+
 
 
 ## About
