@@ -16,10 +16,10 @@ title: ""
   </a>
 </p>
 
-{% include products.html %}
 
 <hr>
 
+{% include products.html %}
 <h2>Recent articles</h2>
 
 {% if site.posts and site.posts.size > 0 %}
