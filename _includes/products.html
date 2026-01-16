@@ -1,34 +1,32 @@
 <section class="section">
   <h2>Available Tools</h2>
-  <p class="muted">Click a tool to view it.</p>
 
   <div class="productlist">
     {% for p in site.data.products %}
       <div class="productrow">
-        <div class="productmain">
-          <div class="producttitle"><b>{{ p.title }}</b></div>
-          {% if p.desc %}
-            <div class="productdesc">{{ p.desc }}</div>
-          {% endif %}
-        </div>
 
-        <div class="productmeta">
-          {% if p.format %}
-            <span class="pill">{{ p.format }}</span>
-          {% endif %}
-
-          {% if p.status %}
-            <span class="badge badge-{{ p.status | downcase | replace: ' ', '-' }}">
-              {{ p.status }}
-            </span>
-          {% endif %}
-
+        <div class="producthead">
           {% if p.url and p.url != "" and p.status != "Coming soon" %}
-            <a class="btn" href="{{ p.url }}" target="_blank" rel="noopener">View</a>
+            <a class="producttitle" href="{{ p.url }}" target="_blank" rel="noopener">{{ p.title }}</a>
           {% else %}
-            <span class="btn disabled">Coming soon</span>
+            <span class="producttitle"><b>{{ p.title }}</b></span>
           {% endif %}
+
+          <span class="producttags">
+            {% if p.format %}
+              <span class="pill">{{ p.format }}</span>
+            {% endif %}
+
+            {% if p.status %}
+              <span class="badge badge-{{ p.status | downcase | replace: ' ', '-' }}">{{ p.status }}</span>
+            {% endif %}
+          </span>
         </div>
+
+        {% if p.desc %}
+          <div class="productdesc">{{ p.desc }}</div>
+        {% endif %}
+
       </div>
     {% endfor %}
   </div>
