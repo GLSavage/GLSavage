@@ -12,7 +12,7 @@ title: ""
 <p style="margin-top:24px;">
   <a href="https://payhip.com/GLSavage"
      style="font-size:1.2rem; font-weight:600;">
-    This is the work behind it.
+    This is the work behind it. ..
   </a>
 </p>
 
