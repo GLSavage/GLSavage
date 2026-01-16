@@ -2,3 +2,29 @@
 ---
 
 @import "{{ site.theme }}";
+
+/* Products section spacing */
+.section {
+  margin: 2.5rem 0;
+}
+
+.muted {
+  opacity: 0.8;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Product card */
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 14px;
+  padding: 1rem;
+  background: #fff;
+}
+
