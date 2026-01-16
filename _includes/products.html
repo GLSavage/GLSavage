@@ -4,23 +4,41 @@
 
   <div class="grid">
     {% for p in site.data.products %}
-      <div class="card-top">
-  <h3 class="card-title">{{ p.title }}</h3>
+  <div class="card">
+    <div class="card-top">
+      <h3 class="card-title">{{ p.title }}</h3>
 
-  <div class="card-tags">
-    {% if p.format %}
-      <span class="pill">{{ p.format }}</span>
+      <div class="card-tags">
+        {% if p.format %}
+          <span class="pill">{{ p.format }}</span>
+        {% endif %}
+
+        {% if p.status %}
+          <span class="badge badge-{{ p.status | downcase | replace: ' ', '-' }}">
+            {{ p.status }}
+          </span>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if p.desc %}
+      <p class="card-desc">{{ p.desc }}</p>
     {% endif %}
 
-    {% if p.status %}
-      <span class="badge badge-{{ p.status | downcase | replace: ' ', '-' }}">
-        {{ p.status }}
-      </span>
-    {% endif %}
+    <div class="card-actions">
+      {% if p.url and p.url != "" and p.status != "Coming soon" %}
+        <a class="btn" href="{{ p.url }}" target="_blank" rel="noopener">View</a>
+      {% else %}
+        <span class="btn disabled">Coming soon</span>
+      {% endif %}
+    </div>
+  </div>
+{% endfor %}
+
   </div>
 </div>
-
-        </div>
+</div>
+        
 
         {% if p.desc %}
           <p class="card-desc">{{ p.desc }}</p>
