@@ -16,6 +16,7 @@ title: ""
   </a>
 </p>
 
+{% include products.html %}
 
 <hr>
 
