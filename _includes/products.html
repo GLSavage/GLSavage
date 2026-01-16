@@ -1,0 +1,38 @@
+<section class="section">
+  <h2>Available Tools</h2>
+  <p class="muted">Concrete tools you can use immediately.</p>
+
+  <div class="grid">
+    {% for p in site.data.products %}
+      <div class="card">
+        <div class="card-top">
+          <h3 class="card-title">{{ p.title }}</h3>
+
+          {% if p.status %}
+            <span class="badge badge-{{ p.status | downcase | replace: ' ', '-' }}">
+              {{ p.status }}
+            </span>
+          {% endif %}
+        </div>
+
+        {% if p.desc %}
+          <p class="card-desc">{{ p.desc }}</p>
+        {% endif %}
+
+        {% if p.format %}
+          <div class="card-meta">
+            <span class="pill">{{ p.format }}</span>
+          </div>
+        {% endif %}
+
+        <div class="card-actions">
+          {% if p.url and p.url != "" and p.status != "Coming soon" %}
+            <a class="btn" href="{{ p.url }}" target="_blank" rel="noopener">View</a>
+          {% else %}
+            <span class="btn disabled">Coming soon</span>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
