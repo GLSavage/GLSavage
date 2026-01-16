@@ -1,11 +1,12 @@
 - title: "Reclaim Your Life (Book)"
-  desc: "Core framework for exiting burnout and reclaiming your life."
+  desc: "Core framework for exiting burnout systems."
   format: "PDF"
   status: "Available"
-  url: "https://payhip.com/b/Cj98m"
+  url: "https://example.com"
 
-- - title: "Reclaim Your Time (Workbook)"
-  desc: "Workbook"
+- title: "Panic-Moment Finance Decision Tool"
+  desc: "What to pay when you can’t pay everything."
   format: "PDF"
-  status: "Available"
-  url: "https://payhip.com/b/VbCpf"
+  status: "New"
+  url: "https://example.com"
+
