@@ -40,13 +40,13 @@ title: Home
     <a class="topic-card" href="/finance/">
       <h2 class="topic-name">Finance</h2>
       <p class="topic-sub">Money decisions, triage, basics that actually matter.</p>
-      <div class="topic-meta">/finance/</div>
+    
     </a>
 
     <a class="topic-card" href="/time/">
       <h2 class="topic-name">Time</h2>
       <p class="topic-sub">Capacity, priorities, how to get everything done.</p>
-      <div class="topic-meta">/time/</div>
+    
     </a>
 
 
