@@ -4,7 +4,7 @@ title: Home
 ---
 <div class="site-header">
   <a href="/">
-<img src="/GLSavage/SavageLogo.png" alt="" class="site-logo">
+
 
 
 
