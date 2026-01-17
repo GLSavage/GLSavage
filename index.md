@@ -56,7 +56,7 @@ title: Home
   <h1 class="home-title">Clear answers and tools to navigate the realities of modern life</h1>
 
   <div class="topic-grid">
-    <a class="topic-card" href="/finance/">
+    <a class="topic-card" href="GLSavage/finance/">
       <h2 class="topic-name">Finance</h2>
       <p class="topic-sub">Money decisions, triage, basics that actually matter.</p>
     
