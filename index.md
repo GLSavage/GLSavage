@@ -4,7 +4,8 @@ title: Home
 ---
 <div class="site-header">
   <a href="/">
-    <img src="/savagelogo.png" alt="Savage logo" class="site-logo">
+  <img src="{{ site.baseurl }}/savagelogo.png" alt="" class="site-logo">
+
   </a>
 </div>
 
