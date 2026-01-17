@@ -1,49 +1,50 @@
 ---
 layout: default
-title: ""
+title: Home
 ---
 
-<img src="{{ site.baseurl }}/SavageLogo.png" alt="" style="width:80px; margin-bottom:16px;">
+<style>
+  .home-wrap { max-width: 860px; margin: 0 auto; padding: 1.25rem 0; }
+  .home-title { margin: 0 0 1rem 0; line-height: 1.15; letter-spacing: -0.02em; }
+  .topic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  @media (max-width: 640px) { .topic-grid { grid-template-columns: 1fr; } }
 
-<h2 style="font-size:1.6rem; font-weight:500; margin-top:0;">
-  Something you saw brought you here. 
-</h2>
+  .topic-card {
+    display: block;
+    padding: 14px 14px 12px 14px;
+    border: 1px solid rgba(0,0,0,0.14);
+    border-radius: 12px;
+    text-decoration: none;
+    background: #fff;
+    transition: transform .08s ease, border-color .08s ease, box-shadow .08s ease;
+  }
+  .topic-card:hover {
+    transform: translateY(-1px);
+    border-color: rgba(0,0,0,0.24);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  }
+  .topic-name { margin: 0; font-size: 1.05rem; }
+  .topic-sub { margin: 6px 0 0 0; opacity: 0.82; font-size: 0.95rem; }
+  .topic-meta { margin-top: 10px; font-size: 0.85rem; opacity: 0.65; }
+</style>
 
-<p style="margin-top:24px;">
-  <a href="https://payhip.com/GLSavage"
-     style="font-size:1.2rem; font-weight:600;">
-    This is the work behind it.
-  </a>
-</p>
+<div class="home-wrap">
+  <h1 class="home-title">Clear answers and tools to navigate the realities of modern life</h1>
 
+  <div class="topic-grid">
+    <a class="topic-card" href="/finance/">
+      <h2 class="topic-name">Finance</h2>
+      <p class="topic-sub">Money decisions, triage, basics that actually matter.</p>
+      <div class="topic-meta">/finance/</div>
+    </a>
 
-<hr>
-
-{% include products.html %}
-<h2>Recent articles</h2>
-
-{% if site.posts and site.posts.size > 0 %}
-<ul>
-  {% for post in site.posts limit:5 %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br>
-    <span>{{ post.excerpt | strip_html | truncate: 260 }}</span><br>
-    <a href="{{ post.url | relative_url }}">Read more</a>
-  </li>
-  {% endfor %}
-</ul>
-{% else %}
-<p>No articles yet.</p>
-{% endif %}
-[More articles]({{ "/articles.html" | relative_url }})
-
-
-
-## About
-
-G. L. Savage writes about control, compliance, and the structural pressures shaping modern life.  
-This work is not motivational or therapeutic. It examines how systems limit choice and what it takes to reclaim autonomy.
-
-[Optional support here](https://ko-fi.com/glsavage) helps make continued writing and publishing possible.
+    <a class="topic-card" href="/time/">
+      <h2 class="topic-name">Time</h2>
+      <p class="topic-sub">Capacity, priorities, how to get everything done.</p>
+      <div class="topic-meta">/time/</div>
+    </a>
 
 
+ 
+  </div>
+</div>
