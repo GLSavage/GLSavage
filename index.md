@@ -45,7 +45,7 @@ title: Home
 }
 
 .site-logo {
-  height: 48px;
+  height: 68px;
   width: auto;
   display: block;
 }
