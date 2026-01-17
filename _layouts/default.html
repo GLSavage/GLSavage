@@ -5,20 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
   </head>
+
   <body>
-    <header class="site-header container">
-  <a href="/GLSavage/">
-  <img src="/GLSavage/SavageLogo.png" alt="" class="site-logo" height="48">
+    <div class="container">
+      <header class="site-header">
+        <a href="/GLSavage/" class="logo-link">
+          <img src="/GLSavage/SavageLogo.png" alt="" class="site-logo" height="48">
+        </a>
+        <a href="/GLSavage/" class="home-button">Home</a>
+      </header>
 
-  </a>
-  <a href="/GLSavage/" class="home-button">Home</a>
-</header>
-
-    <main class="container">
-      {{ content }}
-    </main>
+      <main>
+        {{ content }}
+      </main>
+    </div>
   </body>
 </html>
