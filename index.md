@@ -2,14 +2,7 @@
 layout: default
 title: Home
 ---
-<div class="site-header">
-  <a href="/">
 
-
-
-
-  </a>
-</div>
 
 <style>
   .home-wrap { max-width: 860px; margin: 0 auto; padding: 1.25rem 0; }
@@ -39,16 +32,7 @@ title: Home
   .topic-name { margin: 0; font-size: 1.05rem; }
   .topic-sub { margin: 6px 0 0 0; opacity: 0.82; font-size: 0.95rem; }
   .topic-meta { margin-top: 10px; font-size: 0.85rem; opacity: 0.65; }
-  .site-header {
-  max-width: 860px;
-  margin: 0 auto 1rem auto;
-}
-
-.site-logo {
-  height: 68px;
-  width: auto;
-  display: block;
-}
+ 
 
 </style>
 
