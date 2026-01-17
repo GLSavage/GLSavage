@@ -6,7 +6,12 @@ title: Home
 <style>
   .home-wrap { max-width: 860px; margin: 0 auto; padding: 1.25rem 0; }
   .home-title { margin: 0 0 1rem 0; line-height: 1.15; letter-spacing: -0.02em; }
-  .topic-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .topic-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
   @media (max-width: 640px) { .topic-grid { grid-template-columns: 1fr; } }
 
   .topic-card {
